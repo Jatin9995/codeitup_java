@@ -1,0 +1,151 @@
+Notes of java
+----------------------
+
+JDK
+(Java Development Kit)
+The JDK also called Java Development Kit is a superset of the JRE, and contains everything that is in the JRE, plus tools such as the compilers and debuggers
+necessary for developina applets and applications.
+
+
+JRE
+(Java Runtime Environment)
+JRE : The Java Runtime Environment (JRE) provides the libraries, the Java Virtual Machine, and other components to run applets and applications written in the
+Java programming language. JRE does not contain tools and utilities such as compilers or debuggers for developing applets and applications.
+
+
+JVM
+(Java Virtual Machine)
+Java virtual Machine(JVM) is a virtual Machine that provides runtime environment to execute java byte code. The JVM doesn't understand Java
+code directly, that's why you need to compile your java files to obtain *. class files that contain the bytecodes understandable by the JVM.
+
+java => compile => .class (Bytecodes)
+java is also called 2 stage system
+1) javaprogram	> compiler > byte codes
+2) Byte code > interpreter > execute
+
+
+
+
+Here's a simple diagram showing the relationship:
+. JDK (Java Development Kit) - Contains everything (for development).
+. Inside it is JRE (Java Runtime Environment) - Used to run Java apps.
+. Inside JRE is JVM (Java Virtual Machine) - Actually executes the code.
+
+----------------------------------------------
+
+Increment Decrement Operator in Java
+------------------------------------------
+Increment operator(++) or Decrement operator(--) used to increase the  value of the variable by one or decrease the value of the variable by one
+respectively.
+For Example: 1.
+int a=5;
+a++; // The value of a will become 6
+
+2.int b=10;
+a -- ;// The value of b will become 9
+
+a++ = [a=a+1]
+b-- = [b=b-1]
+
+
+Increment / Decrement Operator
+Further, increment/decrement operator is classified into two parts:
+a. Prefix Increment/Decrement  = ++a, --a
+b. Postfix Increment/Decrement  = a++, a--
+
+
+Prefix Increment / Decrement Operator
+When ++ or -- is placed before the variable, it is called a prefix operator.
+In this case, the variable’s value is changed first, and then the updated value is used in the expression.
+int a = 5;
+System.out.println(++a); // 6 (first increment, then use)
+System.out.println(a);   // 6
+
+
+Posftfix Increment / Decrement Operator
+When ++ or -- is placed after the variable, it is called a postfix operator.
+In this case, the current value is used first, and then the variable is updated.
+int a = 5;
+System.out.println(a++); // 5 (first use, then increment)
+System.out.println(a);   // 6
+
+So the difference is:
+---------------------------------
+Prefix: Change first → then use.
+Postfix: Use first → then change.
+
+
+
+AND OR NOT Logical Operators In Java 
+----------------------------------------------
+There may be some requirements where two or more conditions have to be joined together. In such places, Logical operators are used to combine multiple
+conditions.
+There are three Logical Operators are:
+1. AND Operator - &&
+This returns true when all the conditions associated with this is true. In simple words we may say that this finally gives true when every condition is satisfied.
+
+
+2. OR Operator - ||
+This returns true when any one condition associated with this is true. In simple words we may say that this finally gives true when any one condition is
+satisfied.
+
+
+3. Not Operator - !
+This reverses the condition. Basically it is used to reverse the input. i.e. if the input is true it returns faise and if the input is false it returns true.
+
+
+\n :- used in java prommiging to change the line while printing.
+ex. syso("value of a : " + a +"value of b :" + b);
+console result :-
+value of a :5 value of b : 10
+ if we want to seperately print the message in next line then
+ syso("value of a : " + a +"\nvalue of b :" + b);
+console result :-
+value of a :5 
+value of b : 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
