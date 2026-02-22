@@ -1,30 +1,42 @@
-
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class test {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args)  {
 
-		int n, count=0;
-		
+	
+		int a , b, c;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter a number to find the Prime Number");
-		n=sc.nextInt();
-
-		for(int i=1; i<=n; i++) {
-			if (n%i==0) {
-				count=count+1;
-			}
-			
-		}
+		System.out.println("Enter the first number");
+		a=sc.nextInt();
 		
-		if (count==2) {
-			System.out.println("Prime Number");;
+		
+		System.out.println("Enter the second number");
+		b=sc.nextInt();
+		
+		
+		System.out.println("Enter the third number");
+		c=sc.nextInt();
+		
+		System.out.println("Valaue of a=" + a + "\nValue of b=" + b + "\nValue of c=" + c);
+		
+		
+		if (a>b && a>c) {
+			System.out.println("a is Maximum Number: " + a );
+		}else if (b>a && b>c) {
+		
+			System.out.println("b is Maximum Number: " + b);
 			
-		}else {
-			System.out.println("Not Prime Number");
+		} else {
+			System.out.println("c is Maximum Number:" + c);
 		}
+			
+		
+		
+		
+		
+		
 	}
 
 }
