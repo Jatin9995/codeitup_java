@@ -47,11 +47,11 @@ public class Session39_FibonacchiSeries {
 			x=y;
 			y=z;
 			z=x+y;
-			term=term+1;
+			
+			term++;
 			
 			
 		}
-
 
 
 	}

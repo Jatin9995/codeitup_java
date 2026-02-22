@@ -24,6 +24,7 @@ public class Session15_Scanner {
 		
 		System.out.println("Enter Your Salary");
 		c=sc.nextDouble();
+	
 		
 		
 		System.out.println("UserName =" + username1 + "\nMobile Number =" + a + "\nEmail Id =" + b + "\nSalary =" + c);

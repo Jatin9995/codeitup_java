@@ -19,8 +19,8 @@ selection Statement
 -------------------------------
 Selection statement are used to execute a statement based on a condition. If the given condition is true, then only the statement inside it is executed
 otherwise the else section is executed.
-* if condition k sath agar single statement use kiya hai to curly brasis use karne ki jarurat nahi. wo statement automaticallybexecute ho jayega.
-* agar if condition k sath multiple statements hai hai curly brasis use karna jaruri hai.
+* if condition k sath agar single statement use kiya hai to curly brasis use karne ki jarurat nahi. wo statement automatically execute ho jayega.
+* agar if condition k sath multiple statements hai to curly brasis use karna jaruri hai.
 
 	 */
 	
@@ -35,7 +35,7 @@ otherwise the else section is executed.
 			
 			System.out.println("Value of a is less then b :" +" "+ "Value of b =" + b);
 		else {
-			System.err.println("Value of a is greater than b :" +" "+ "Value of a =" + a);
+			System.out.println("Value of a is greater than b :" +" "+ "Value of a =" + a);
 		}
 
 
@@ -88,7 +88,7 @@ otherwise the else section is executed.
 	 * case value2:
 	 * break}  */
 	
-	//in switch case,  case value check and match the value mentioned mentioned in expression and execute.
+	//in switch case,  case value check and match the value mentioned in expression and execute.
 	//break statement switch se exit karne k liye use kiya jata hai. agar break use nahi kiya or case value1 satisfy ho gaye to phir bhi
 	//wo case value 2 par jayega check karne.
 	//Default: it is used if all cases are not matched with the expression.

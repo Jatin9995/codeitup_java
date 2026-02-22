@@ -13,6 +13,7 @@ public class Session35_primenumber_or_not {
 	 * hume loop lagana hoga or 1 se lekar diye hue number tak divide karna hoga taaki check kar sake ki kis kis number se divide ho sakta hai or reminder 0 bachta hai. 
 	 * 
 	 */
+		
 	
 		int i, count, n;
 		i=1;

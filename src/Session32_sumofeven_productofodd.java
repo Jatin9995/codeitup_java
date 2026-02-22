@@ -10,7 +10,7 @@ public class Session32_sumofeven_productofodd {
 /*		
 		int n, sum, product,digit;    //yaha humne variable declare kiya hai.
 		sum=0;  // 0 me kuch bhi plus karne pe uski value me koi fark nahi padta
-		product=1;  //product ki value 1 le hai, kyu ki multiply karne pe kuch chanle nahi hoga but muktiplication karke value aayegi.
+		product=1;  //product ki value 1 le hai, kyu ki multiply karne pe kuch change nahi hoga but multiplication karke value aayegi.
 		
 		
 		Scanner sc=new Scanner(System.in);

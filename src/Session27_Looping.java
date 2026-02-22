@@ -9,7 +9,7 @@ public class Session27_Looping {
 times till the condition is true. In simple words we can say that loop is a way to
 keep executing either a single statement or a block of statement n times till the
 condition is true i.e. until a given condition becomes false.
-While loop is called entry control loop. means ki pehle conditon check karta hai or agar true hota hai table body execute hoti hai.
+While loop is called entry control loop. means ki pehle conditon check karta hai or agar true hota hai tabhi body execute hoti hai.
 
 Every loop contains three parts:
 1. Initialization
